@@ -24,4 +24,4 @@ model.fit(articles)
 nmf_features = model.transform(articles)
 
 # Print the NMF features
-print(nmf_features)
+print(nmf_features.round(2))
